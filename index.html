@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <title>Clube de Leitura - Podcast</title>
+</head>
+<body>
+    <header> 
+        <div id="titulo" onclick="window.location.href='https://www.youtube.com/@DocumentandoLivros';">
+            <h1>Documentando Livros</h1>
+        </div>
+
+        <div id="botoes">
+            <a href="#torto_arado" class="botoes" id="bnt_torto_arado" name="bnt_torto_arado">Torto Arado</a>
+            <a href="#a_vida_nao_e_util"  class="botoes" id="bnt_a_vida_nao_e_util" name="bnt_a_vida_nao_e_util">A Vida Não É Útil</a>
+            <a href="#slides" class="botoes" id="bnt_slides" name="bnt_slides">Slides</a>
+            <a href="#questoes" class="botoes" id="bnt_questoes" name="bnt_questoes">Questões</a>
+        </div>
+    </header>
+
+    <div id="div_principal">
+        <div id="audio">
+            <div id="botao_audio">
+                <img id="imgAudio" src="imagens/play.png">
+                <audio id="podcast" src="audios/podcast.mp3"></audio>
+            </div>
+            <div id="controle_audio">
+                <hr>
+                <img id="imgContagemAudio" src="imagens/bolinha.png">
+            </div>
+            <div id="div_tempo">
+                <p id="p_tempo">19:37</p>
+            </div>
+            
+
+        </div>
+
+        <div class="bloco" id="apresentacao"> 
+            <h2>Documentando Livros</h2>
+            <p>Este canal foi concebido pelos estudantes Ezequiel Melo, Evellyn Costa, Tayna Dias, Yasmin Alves e Graziella Alves, do Instituto Federal de São Paulo, Campus Guarulhos. Juntos, dedicamos nosso tempo à documentação de livros dos gêneros Romance e Crítica Literária.</p><br>
+
+            <h2>Integrantes:</h2>
+            <div id="integrantes">
+
+                <div class="duplas">
+                    <div class="info_integrantes" name="evellyn">
+                        <div class="img_integrante"><img src="imagens/evellyn.jpg"></div>
+    
+                        <div class="txt_integrante">
+                            <h3>Evellyn Costa</h3>
+                            <p>Olá, meu nome é Evellyn Costa, nasci em Guarulhos, São Paulo, no dia 15/11/2006. Neste episódio do podcast, explorei as diversas possibilidades de redação e discuti as questões apresentadas por Ailton Krenak em "A vida não é útil". Em colaboração com Yasmin Alves, elaborei os slides que serão apresentados neste site.</p>
+                        </div>
+                    </div>
+
+                <div class="info_integrantes" name="ezequiel">
+                    <div class="img_integrante"><img src="imagens/ezequiel.jpg"></div>
+
+                    <div class="txt_integrante">
+                        <h3>Ezequiel Melo</h3>
+                        <p>Olá, meu nome é Ezequiel Melo, nasci em Guarulhos, São Paulo, no dia 17/07/2006. Fui o apresentador neste episódio do podcast, introduzindo os ouvintes ao que poderiam esperar. Abordei a obra "Torto Arado" de Itamar Vieira Junior, oferecendo insights sobre o autor e a narrativa. Além disso, editei o podcast, incluindo introduções musicais para enriquecer a experiência auditiva.</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="duplas">
+                <div class="info_integrantes" name="graziela">
+                    <div class="img_integrante"><img src="imagens/graziela.jpg"></div>
+
+                    <div class="txt_integrante">
+                        <h3>Graziela Alves</h3>
+                        <p>Olá, sou Graziella Alves, nascida em Guarulhos, São Paulo, no dia 04/03/2006. No episódio mais recente do podcast, explorei a obra "A vida não é útil" de Ailton Krenak, analisando algumas de suas reflexões impactantes. Apresentei uma breve introdução sobre o autor e sua obra, além de colaborar com Tayna Dias na elaboração deste site.</p>
+                    </div>
+                </div>
+
+                <div class="info_integrantes" name="tayma">
+                    <div class="img_integrante"><img src="imagens/tayna.jpg"></div>
+
+                    <div class="txt_integrante">
+                        <h3>Tayna Dias</h3>
+                        <p>Olá, sou Tayna Dias, nascida em Guarulhos, São Paulo, no dia 24/08/2006. No último episódio do podcast, explorei o contexto histórico, social e cultural da obra "Torto Arado" de Itamar Vieira Junior, estabelecendo conexões significativas. Criei uma ponte entre as reflexões de Ailton Krenak em "A vida não é útil" e a narrativa de Itamar Vieira Junior. Em colaboração com Graziella Alves, contribuí para a elaboração deste site.</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="duplas">
+                <div class="info_integrantes" name="yasmin">
+                    <div class="img_integrante"><img src="imagens/yasmin.jpg"></div>
+
+                    <div class="txt_integrante">
+                        <h3>Yasmin Alves</h3>
+                        <p>Olá, sou Yasmin Alves, nascida em Guarulhos, São Paulo, no dia 01/05/2006. No episódio do podcast, explorei diversas possibilidades de temas para redação e discutimos questões vestibulares apresentadas por Itamar Vieira Junior em "Torto Arado". Em colaboração com Evellyn Costa, contribuí na elaboração dos slides que serão apresentados neste site.</p>
+                    </div>
+                </div>
+
+                <div class="info_integrantes" name="gema">
+                    <div class="img_integrante"><img src="imagens/gema.jpg"></div>
+
+                    <div class="txt_integrante">
+                        <h3>Gema Bezerra</h3>
+                        <p>Olá, sou Gema Bezerra, professora do Instituto Federal de Educação, Ciência e Tecnologia de SP em Guarulhos. Minhas disciplinas incluem Língua Portuguesa, Literatura, Leitura e Produção de Textos, além de Metodologia do Trabalho Científico. Coordeno o Projeto Clube de Leitura "Dead Poets Society", incentivando hábitos de leitura no ensino médio, e supervisiono Atividades Teóricas-Práticas na Licenciatura em Matemática.</p>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+            </div>
+
+            <div class="bloco" id="torto_arado">
+                <h2>Torto Arado</h2>
+                <div id="txt_torto_arado">
+                    <div class="duplas">
+                        <div class="imgTortoArado">
+                            <p>	A obra "Torto Arado", do renomado autor Itamar Vieira Júnior, estreou no cenário literário brasileiro em 2019, marcando presença também em terras portuguesas antes disso. Esta análise se propõe a mergulhar nas diversas camadas que compõem este romance, cuja trajetória desde a publicação em Portugal até os prestigiosos prêmios que conquistou, nos conduz a uma compreensão mais aprofundada da sua relevância literária.</p>
+                            <p>Ao longo de cinco anos, o livro conquistou três notáveis prêmios literários, iniciando com o Prêmio Leya de literatura portuguesa em 2018. A escolha de publicar inicialmente em Portugal responde à natureza desse reconhecimento. Em seguida, o Prêmio Oceanos, os Prêmios Jabuti e a adaptação audiovisual pela HBO Max confirmam a universalidade do impacto dessa obra.</p>
+                            <p>A estrutura narrativa, dividida em três capítulos, apresenta uma abordagem única ao ceder voz a cada uma das protagonistas, Bibiana e Belonisia. O acidente trágico que ocorre no início do enredo, resultante de curiosidade e envolvendo um objeto central à trama, dá início a uma jornada marcada pela complexidade. O terceiro capítulo, distinto em sua narrativa e densidade, se destaca como ponto culminante, exigindo leituras múltiplas para desvendar sua profundidade.</p>
+                            
+
+                        </div>
+                        <div id="imgTortoArado" class="imgTortoArado">
+                            <img src="imagens/torto_arado.jpg">
+                        </div>
+                    </div>
+
+
+                    <div class="duplas">
+                        <div class="imgTortoArado">
+                            <img src="imagens/Itamar_Vieira.jpg">
+                        </div>
+
+                        <div class="imgTortoArado">
+                            <p>Em síntese, "Torto Arado" transcende sua narrativa para se tornar um artefato literário imersivo e complexo. A trajetória desde sua concepção até as páginas finais oferece uma perspectiva enriquecedora sobre o poder da literatura em transcender fronteiras físicas e temporais. Este é um convite à exploração minuciosa desta obra, cujo significado e impacto são intrincadamente entrelaçados em suas páginas.</p>
+                            <p>A ambientação no cenário sertanejo, em uma época não rigidamente definida, confere à narrativa uma universalidade atemporal. A habilidade do autor em tecer referências, como a seca de 1932 e a chegada da televisão preto e branco, cria um pano de fundo autêntico, incitando reflexões sobre a passagem do tempo e evolução social.</p>
+
+                            <p>O fascínio por este livro decorre da habilidade do autor ao retratar a vida na Chapada Diamantina. A revelação de que não apenas expos a realidade dos pobres com passado escravocrata, mas também representou as nuances dos habitantes, incluindo nomes, religião e costumes da Chapada Diamantina.</p>
+                            <p>a Chapada Diamantina era pouco povoada, somente em 1844, com a descoberta da existência de diamantes que tornou-se a área mais dinâmica da província da Bahia. Para isso, muitos escravos foram realocados para a área e muitas pessoas livres, com poucas condições financeiras se mudaram para o lugar com a esperança de mudar de vida. </p>
+                        </div>
+                    </div>
+                    
+                    <div class="duplas">
+
+                        <div>
+                            <p>Nesse momento, a Chapada chegou a abrigar mais de 30 mil pessoas, posteriormente, em 1970, possuiu apenas 5 mil e atualmente tem 10 mil habitantes, dos quais 85% são negros. Contudo, continua sendo liderada pela elite branca, esses que antes possuíam escravos agora possuem pousadas, restaurantes e empresas que atuam no setor terciário, já que a atual atividade econômica provém do turismo.</p>
+                            <p>O Jarê é a principal religião citada no livro, ela é brasileira e muito semelhante com o candomblé. Hoje, se distingue por conta das entidades cultuadas, predominância de pais e não mães de santo e ainda a possibilidade de todas as pessoas presentes entrarem em contato direto com as entidades.</p>
+
+                        </div>
+
+                        <div class="imgjare">
+                            <img src="imagens/jareUm.jpg">
+                        </div>
+                    </div>
+
+                    <p>Essa religião foi criada por escravas e libertas, vindas principalmente das cidades de Cachoeira e São Félix, e levadas àquela área de garimpo de diamantes. Essas senhoras eram chamadas de Nagôs. Por mais que seja pouco conhecida, já foi premiada, em 2013, com o prêmio Culturas Populares, do Ministério da Cultura e seus cantos foram imortalizados em um acervo digital, que além dessas cantigas transcritas e gravadas, possui textos e fotos históricas dessa crença. </p>
+                    <p>Todas essas características não são apenas coincidências, pois Vieira escreveu a obra inspirado pelo próprio doutorado em Estudos Étnicos e Africanos, no qual fez uma pesquisa baseada na formação de comunidades quilombolas na Chapada Diamantina.</p>
+
+                    <br>
+
+                    <div class="duplas">
+                        <div class="imgpersonagens">
+                            <img src="imagens/tortoAradoPersonagens.jpg">
+                        </div>
+
+                        <div class="imgTortoArado">
+                            <p>A abordagem da religião não apenas enriquece a narrativa, mas também destaca temas relevantes, como racismo, intolerância religiosa e a carência de acesso à saúde. A situação na fazenda onde as irmãs vivem reflete uma realidade análoga à escravidão, evidenciando a desigualdade persistente. A proibição de construir casas de alvenaria é um exemplo dessa desigualdade, simbolizando as lutas por moradia enfrentadas por comunidades historicamente marginalizadas.</p>
+                            <p>Essa realidade na fazenda representa o legado do passado escravocrata do Brasil, onde famílias descendentes de escravizados vivem sob a influência de feitores descendentes de escravocratas. A falta de direitos básicos, como a posse da terra, perpetua desigualdades históricas e estruturais.</p>
+                            <p>O autor destaca a centralidade da mulher negra na narrativa, evidenciando as múltiplas opressões que enfrentam. Em Água Negra, a protagonista não possui controle sobre seu próprio corpo, sua voz é silenciada e ela enfrenta a falta de propriedade até mesmo do chão onde vive. A personagem Belonísia personifica as lutas e desafios enfrentados por mulheres negras, destacando não apenas o racismo, mas também o machismo enraizado nas estruturas sociais.</p>
+                        </div>
+                    </div>
+                
+                
+                </div>
+
+
+                </div>
+            </div>
+            
+            <div class="bloco" id="a_vida_nao_e_util">
+                <h2>A Vida Não É Útil</h2>
+                <div id="txt_a_vida_nao_e_util">
+                    <div class="duplas">
+                        <div>
+                            <p>O livro "A vida não é útil", lançado em 2020 pela editora Companhia Das Letras, é uma obra provocativa de Ailton Krenak, líder indígena e defensor dos direitos indígenas. Em meio às reflexões provocadas pela pandemia de covid-19, Krenak critica as tendências destrutivas da sociedade e aborda temas como consumismo desenfreado e devastação ambiental.</p>
+                            <p>Dividido em cinco capítulos - Dinheiro não se come, Sonhos para adiar o fim do mundo, A máquina de fazer coisas, O amanhã não está à venda e A vida não é útil -, o livro desafia a visão de que somos donos da Terra, enfatizando a desconexão da humanidade com o organismo vivo da terra, causada pelo consumo e entretenimento incessantes, e questiona a ânsia dos bilionários em colonizar o espaço como uma fuga diante da possível inabitabilidade - causada por eles mesmos - do planeta.</p>
+                            <p>Durante a pandemia, as palavras de Krenak ganharam ainda mais relevância. Ele critica a ideia de que a economia não pode parar e afirma: "Nós poderíamos colocar todos os dirigentes do Banco Central em um cofre gigante e deixá-los vivendo lá, com a economia deles. Ninguém come dinheiro",  propondo uma reflexão sobre o verdadeiro significado de "civilização". Suas reflexões questionam os "consumidores do planeta" e desmistificam a noção de sustentabilidade como uma solução universal.</p>
+                            <p>Além disso, é importante ressaltar que "A vida não é útil" reúne cinco textos adaptados de palestras, entrevistas e lives realizadas entre novembro de 2017 e junho de 2020, oferecendo uma visão cronológica e contextualizada das reflexões de Krenak ao longo desse período.  Assim, a obra transcende as páginas, provocando reflexões críticas sobre a vida contemporânea e desafiando as normas estabelecidas pela sociedade, convidando os leitores a repensarem sua relação com o mundo.</p>
+                        </div>
+                        <div class="imgAVidaNaoEUtil">
+                        <img class="imgAVidaNaoEUtil" src="imagens/a_vida_nao_e_util.jpg">
+                        <img class="imgAVidaNaoEUtil" src="imagens/ailton_krenak.jpg" >
+                    </div>
+                    </div>
+                    
+
+                </div>
+
+                <div id="img_a_vida_nao_e_util">
+
+                </div>
+            </div>
+
+            <div class="bloco" id="slides">
+                <h2>Slides</h2>
+                <div id="divSlide">
+                    <img id="movEsquerda" class="botoes_slides" src="imagens/movslidesesquerda.png">
+                    <img id="imgsSlide" src="imagens/slides/1.jpg">
+                    <img id="movDireita" class="botoes_slides" src="imagens/movslidesdireita.png">
+                </div>
+            </div>
+
+            <div class="bloco" id="questoes">
+                <h2>Questões</h2>
+
+                <div id="blocos_questoes">
+                    <div class="questoes" id="questao1">
+                        <p class="p_questoes">1. O romance “Torto Arado”, de Itamar Vieira Junior, possui três capítulos: “Fio de corte”, “Torto Arado” e “Rio de Sangue”. Cada um deles foi narrado por personagens distintos. Assinale a alternativa correta que identifica, respectivamente, os narradores de cada capítulo: </p><br> 
+                            
+                        <p class="p_questoes">A. Belonísia, Bibiana e Santa Rita Pescadeira. </p>
+                        <p class="p_questoes">B. Belonísia, Bibiana e Zeca do Chapéu Grande.</p>
+                        <p class="p_questoes">C. Bibiana, Belonísia e Santa Rita Pescadeira.</p>
+                        <p class="p_questoes">D. Belonísia, Donana e Bibiana Donana.</p>
+                        <p class="p_questoes">E. Bibiana, Belonísia e Donana. </p>
+                        <button class="botoes, botoes_questoes" id="btn_resp_1">Resposta:   <p class="p_respostas" id="reposta1">Letra C. O primeiro capítulo, intitulado “Fio de Corte”, é narrado por Bibina. O segundo capítulo, chamado “Torto Arado”, é narrado por Belonísia. Já o terceiro capítulo, nomeado “Rio de Sangue” , é narrado por Santa Rita Pescadeira, uma entidade. </p></button>
+                    </div>
+
+                    <div class="questoes" id="questao2">
+                        <p class="p_questoes">2. Qual é o principal ponto de vista do livro "A vida não é útil", de Ailton Krenak, em relação à sociedade moderna?</p><br>
+                            
+                        <p class="p_questoes">A. A busca pelo conhecimento.</p>
+                        <p class="p_questoes">B. A falta de tecnologia.</p>
+                        <p class="p_questoes">C. A destruição ambiental e a busca incessante pelo progresso.</p>
+                        <p class="p_questoes">D. A falta de comunicação.</p>
+                        <p class="p_questoes">E. O excesso de espiritualidade.</p>
+                        <button class="botoes, botoes_questoes" id="btn_resp_2">Resposta:   <p class="p_respostas" id="reposta2">Letra  C. No livro, Ailton Krenak critica principalmente a destruição ambiental causada pela busca incessante pelo progresso e o desrespeito à natureza. Ele argumenta que essa atitude é prejudicial tanto para o meio ambiente quanto para a humanidade. </p></button>                   
+                    </div>
+
+                    <div class="questoes" id="questao3">
+                        <p class="p_questoes">3. Como as questões de identidade, resistência e justiça social são exploradas em “Torto arado” e “A vida não é útil”, e de que forma essas obras literárias oferecem perspectivas sobre as experiências e desafios enfrentados por comunidades rurais no Brasil? Justifique.</p>
+                        <button class="botoes, botoes_questoes" id="btn_resp_3">Resposta:   <p class="p_respostas" id="reposta3">A conexão profunda com a  terra e a natureza desempenham um papel muito importante em ambas as obras. Tanto as comunidades rurais retratadas em “Torto arado" quanto os povos indígenas destacados em “A vida não é útil" têm uma relação própria com o meio ambiente, que é vista como essencial para sua sobrevivência e identidade. Além de oferecerem perspectivas importantes sobre as experiências e desafios enfrentados pelas comunidades rurais e indígenas no Brasil, destacando a importância de proteger essas culturas e territórios em um contexto contemporâneo de mudanças e ameaças constantes.</p></button>
+                    </div>
+
+                    <div class="questoes" id="questao4">
+                        <p class="p_questoes">4. Analise os seguintes trechos dos livros “A vida não é útil”, de Ailton Krenak, e “Torto arado”, de Itamar Vieira Junior:</p>
+
+                        <p class="p_questoes">“O pensamento vazio dos brancos não consegue conviver com a ideia de viver à toa no mundo, acham que o trabalho é a razão da existência. Eles escravizaram tanto os outros que agora precisam escravizar a si mesmo” (KRENAK, 2020, p. 113)</p>
+                            
+                        <p class="p_questoes">“Os donos já não podiam ter mais escravos, por causa da lei, mas precisavam deles. Então, foi assim que passaram a chamar os escravos de trabalhadores e moradores. Não poderiam arriscar, fingindo que nada mudou, porque os homens da lei poderiam criar caso. Passaram a lembrar para seus trabalhadores como eram bons, porque davam abrigo aos pretos sem casa, que andavam de terra em terra procurando onde morar. Como eram bons, porque não havia mais chicote para castigar o povo. Como eram bons, por permitirem que plantassem seu próprio arroz e feijão, o quiabo e a abóbora. A batata-doce do café da manhã. ‘Mas vocês precisam pagar esse pedaço de chão onde plantam seu sustento, o prato que comem, porque saco vazio não fica em pé. Então, vocês trabalham nas minhas roças e, com o tempo que sobrar, cuidam do que é de vocês. Ah, mas não pode construir casa de tijolo, nem colocar telha cerâmica. Vocês são trabalhadores, não podem ter casa igual a dono. Podem ir embora quando quiserem, mas pensem bem, está difícil morada em outro canto.’” (JUNIOR, 2019, p. 159)</p>
+                            
+                        <p class="p_questoes">Qual é o tema central comum entre os dois trechos mencionados e como esse tema se relaciona nas passagens? </p>
+                        <button class="botoes, botoes_questoes" id="btn_resp_4">Resposta:   <p class="p_respostas" id="reposta4">O tema central comum entre os dois trechos mencionados é a exploração e a opressão constantes sofridas, principalmente, pela população indigena e afrodescendente. Ambos os trechos abordam como, mesmo com a existência da lei que abole a escravidão e com as mudanças sociais que ocorreram ao longo do tempo, a exploração continuou: para Krenak, é o trabalho assalariado; para Junior, são as restrições impostas para as comunidades em relação à propriedade (fazenda) e ao acesso aos seus recursos. Além disso, também destacam as justificativas utilizadas pelos dominantes: Ailton Krenak (2020) afirma que “O pensamento vazio dos brancos não consegue conviver com a ideia de viver à toa no mundo, acham que o trabalho é a razão da existência” e Itamar Junior evidencia que “[..] passaram a chamar os escravos de trabalhadores e moradores. Não poderiam arriscar, fingindo que nada mudou, porque os homens da lei poderiam criar caso.” quando descreve as ações dos homens brancos em relação aos seus “trabalhadores”.</p></button>
+                    </div>
+
+                    <div class="questoes" id="questao5">
+                        <p class="p_questoes">5. Relacione os personagens com suas características | acontecimentos:</p>
+
+                        <table class="p_questoes">
+                            <tr class="p_questoes">
+                                <td class="p_questoes">
+                                    <p class="p_questoes">A. Belonísia</p>
+                                </td>
+                                <td class="p_questoes">
+                                    <p class="p_questoes">( ) Dono de uma fazenda | Morreu no último capítulo.</p>
+                                </td>
+                            </tr>
+
+                            <tr class="p_questoes">
+                                <td class="p_questoes">
+                                    <p class="p_questoes">B. Bibiana </p>
+                                </td>
+                                <td class="p_questoes">
+                                    <p class="p_questoes">( ) Trabalhou como professora |  Recebeu uma profecia.</p>
+                                </td>
+                            </tr>
+
+                            <tr class="p_questoes">
+                                <td class="p_questoes">
+                                    <p class="p_questoes">C. Salomão  </p>
+                                </td>
+                                <td class="p_questoes">
+                                    <p class="p_questoes">( ) Prefere fazer serviços domésticos | Encontrou a faca na casa do marido.</p>
+                                </td>
+                            </tr>
+
+                            <tr class="p_questoes">
+                                <td class="p_questoes">
+                                    <p class="p_questoes">D. Severo   </p>
+                                </td>
+                                <td class="p_questoes">
+                                    <p class="p_questoes"> ( ) É avó das irmãs Belonísia e Bibiana  |  Roubou uma faca. </p>
+                                </td>
+                            </tr>
+
+                            <tr class="p_questoes">
+                                <td class="p_questoes">
+                                    <p class="p_questoes">E. Donana </p>
+                                </td>
+                                <td class="p_questoes">
+                                    <p class="p_questoes">( ) É primo de Bibiana e Belonísia | Luta para proteger a terra e seu modo de vida.</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <button class="botoes, botoes_questoes" id="btn_resp_5">Resposta:   
+
+                            <div class="p_respostas" id="reposta5">
+                                <table class="table_resposta">
+                                    <tr class="table_resposta">
+                                        <td  class="table_resposta">
+                                            <p class="table_resposta">A. Belonísia</p>
+                                        </td>
+                                        <td class="table_resposta">
+                                            <p class="table_resposta">(C) Dono de uma fazenda | Morreu no último capítulo.</p>
+                                        </td>
+                                    </tr>
+        
+                                    <tr class="table_resposta">
+                                        <td class="table_resposta">
+                                            <p class="table_resposta">B. Bibiana </p>
+                                        </td>
+                                        <td class="table_resposta">
+                                            <p class="table_resposta">(B) Trabalhou como professora |  Recebeu uma profecia.</p>
+                                        </td>
+                                    </tr>
+        
+                                    <tr class="table_resposta">
+                                        <td class="table_resposta">
+                                            <p class="table_resposta">C. Salomão  </p>
+                                        </td>
+                                        <td class="table_resposta">
+                                            <p class="table_resposta">(A) Prefere fazer serviços domésticos | Encontrou a faca na casa do marido.</p>
+                                        </td>
+                                    </tr>
+        
+                                    <tr class="table_resposta">
+                                        <td class="table_resposta">
+                                            <p class="table_resposta">D. Severo   </p>
+                                        </td>
+                                        <td class="table_resposta">
+                                            <p class="table_resposta">(E) É avó das irmãs Belonísia e Bibiana  |  Roubou uma faca. </p>
+                                        </td>
+                                    </tr>
+        
+                                    <tr class="table_resposta">
+                                        <td class="table_resposta">
+                                            <p class="table_resposta">E. Donana </p>
+                                        </td>
+                                        <td class="table_resposta">
+                                            <p class="table_resposta">(D) É primo de Bibiana e Belonísia | Luta para proteger a terra e seu modo de vida.</p>
+                                        </td>
+                                    </tr>
+                                </table><br>
+
+
+                                <div>
+                                    <p class="table_resposta">(c) Dono de uma fazenda | Morreu no último capítulo: Personagem Salomão. As afirmações estão presentes nos seguintes trechos: “O portão estava fechado por determinação de Salomão, o dono que sucedeu a família Peixoto.” (JUNIOR, 2019, p. 155) e “Os homens replicaram para as mulheres e a notícia correu de casa em casa e pela estrada, com a velocidade das más notícias. Salomão estava morto.” (JUNIOR, 2019, p. 187)</p>
+
+                                    <p class="table_resposta">(b) Trabalhou como professora |  Recebeu uma profecia: Personagem Bibiana. As afirmações estão presentes nos seguintes trechos: “Bibiana havia se formado professora, falava diferente, bonito, via o orgulho de meu pai ao vê-la ensinar os filhos. Dizia que queria a filha professora da escola de Água Negra” (JUNIOR, 2019, p. 116) e "A distância me protegia das bênçãos ou infortúnios, era o que esperava. Mas também não havia sido o acaso que me trouxera aquela mensagem. Ou se fosse o acaso, era fato que o que foi dito se endereçava a mim, e achava que apenas eu e Severo sabíamos. Permaneci no limite entre a crença e a descrença. Passei noites em claro, pensando no significado das palavras “vitória” e “derrota” e o que tudo aquilo poderia dizer sobre a viagem, sobre o filho, sobre minha vida com Severo" (JUNIOR, 2019, p. 62).
+
+
+                                    <p class="table_resposta">(a) Prefere fazer serviços domésticos | Encontrou a faca na casa do marido:  Personagem Belonísia. As afirmações estão presentes nos seguintes trechos: "Pra mim era o suficiente. Diferente de Bibiana, que falava em ser professora, eu gostava mesmo era da roça, da cozinha, de fazer azeite e de despolpar o buriti. Não me atraía a matemática, muito menos as letras de dona Lourdes." (JUNIOR, 2019, p. 76) e "O cabo de marfim tocou sua mão. Estava morno como o pote exposto ao sol em que se abrigava. Mas a boca formigou como no dia em que encontrou a faca da avó. [...] Era a lâmina aquecida por estar no sol, fria quando estava na mala debaixo da cama. Era o fio de corte preservado que rasgava o véu do passado e chegava ao seu presente para fazê-la recordar aquele dia" (JUNIOR, 2019, p. 178). </p>
+                                        
+
+                                    <p class="table_resposta">(e)  É avó das irmãs Belonísia e Bibiana  |  Roubou uma faca: Personagem Donana. As afirmações estão presentes nos seguintes trechos: "Hoje ela está falando muito, a cada dia fala mais sozinha. O pai relutava em admitir que minha avó estivesse com sinais de demência, dizia que a vida toda a mãe havia falado consigo mesma, a vida toda havia repetido rezas e encantos com a mesma distração com que revirava os pensamentos." (JUNIOR, 2019, p. 7- 8) e "Donana roubou a faca do coldre esquecido no alpendre da casa sede da Fazenda Caxangá no começo da tarde.” (JUNIOR, 2019, p. 176).</p>
+
+                                    <p class="table_resposta">(d)   É primo de Bibiana e Belonísia | Luta para proteger a terra e seu modo de vida: Personagem Severo. As afirmações estão presentes nos seguintes trechos: “Era meu primo mais velho, Severo.” (JUNIOR, 2019, p. 30) e "Severo morreu porque pelejava pela terra de seu povo. Lutava pelo livramento da gente que passou a vida cativa. Queria apenas que reconhecessem o direito das famílias que estavam havia muito tempo naquele lugar, onde seus filhos e netos tinham nascido. Onde enterraram seus umbigos, no largo de terra dos quintais das casas. Onde construíram casas e cercas."   (JUNIOR, 2019, p. 153). </p>
+                                </div>
+                            </div>
+                            </button>
+                    </div>
+
+                    <div class="questoes" id="questao6">
+                        <p class="p_questoes">6. Analise as proposições abaixo, selecione a alternativa que contempla as afirmações incorretas sobre os livros “A Vida não é Útil” e “Torto Arado”.</p>
+
+                        <p class="p_questoes">I.  “A Vida Não é Útil” reúne, em formato de livro, o conteúdo exposto por Ailton Krenak em lives durante a Pandemia de Covid 19.</p>
+                            
+                        <p class="p_questoes">II. Em “Torto Arado”, a trama inicia a partir da narração de um incidente envolvendo as duas irmãs protagonistas e uma faca encontrada dentro da Salustiana.</p>
+                            
+                        <p class="p_questoes">III. Após uma grande luta dos trabalhadores, encabeçada por Zéca Chapéu Grande, pela construção de uma escola na Fazenda, Bibiana tornou-se a primeira professora a lecionar na escola de Água Negra.</p>
+
+                        <p class="p_questoes">IV. Ailton Krenak, ao final de “A Vida não é Útil”, relata as opressões ambientais e econômicas que culminaram na saída do povo Krenak de suas Terras.</p>
+
+
+                        <p class="p_questoes">A. I, II, III, IV.</p>
+
+                        <p class="p_questoes">B. I, II, IV.</p>
+
+                        <p class="p_questoes">C. II, III, IV.</p>
+
+                        <p class="p_questoes">D. III, IV.</p>
+
+                        <p class="p_questoes">E. II, IV.</p>
+                        <button class="botoes, botoes_questoes" id="btn_resp_6">Resposta:   <p class="p_respostas" id="reposta6">C. II, III, IV<br><br> A afirmação II está incorreta pois a faca não pertence a Salustiana, mas sim a Donana. <br><br> A afirmação III  não pode ser considerada correta pois é relatado que a escola foi construída quando Bibiana e Belonísia ainda eram crianças, tanto que chegaram a estudar na escola de Água Negra. <br><br> Já o enunciado IV não condiz com o final de “A Vida não é Útil”, em que o autor expõe as opressões sofridas por seu povo mas também as motivações que os fizeram permanecer em seu território.
+                        </button>
+                    </div>
+
+                    <div class="questoes" id="questao7">
+                        <p class="p_questoes">7. No romance “Torto Arado”, de Itamar Júnior, são relatados alguns dos acontecimentos da vida de Bibiana, sendo um deles a sua fuga com Severo. A decisão para essa atitude foi marcada por muitas incertezas. No entanto, um evento pode ser considerado decisivo:</p>
+
+                        <p class="p_questoes">A. A descoberta de que estava grávida, mesmo sendo solteira e jovem, desperta, em Bibiana, medo da reação de seus pais. 
+                        </p>
+                        <p class="p_questoes">B. O recebimento de uma profecia da entidade “Santa Rita Pescadeira”, que previa para Bibiana uma vitória e uma derrota, aumentando sua confiança e determinação em fugir.</p>
+                            
+                        <p class="p_questoes">C. Perceber que a construção da escola de “Água Negra” não seria concluída, impedindo-a de exercer o cargo de professora naquela região.</p>
+                            
+                        <p class="p_questoes">D. A ação de Sutério, durante um tempo de seca, ao apropriar-se de uma parte significativa dos alimentos comprados na feira, alegando direito sobre a terça parte da colheita do quintal.</p>
+
+                        <p class="p_questoes">E. O desejo de Severo, homem com quem Bibiana planejava casar-se, de deixar “Água Negra” pressionou-a a fugir. </p>
+
+                    <button class="botoes, botoes_questoes" id="btn_resp_7">Resposta:   <p class="p_respostas" id="reposta7">Letra D. O acontecimento decisivo para a fuga de Bibiana foi a visita de Severo à sua casa. Nesse evento, ele pegou, inadequadamente, batatas e óleos produzidos e comprados pela família, deixando o pai de Bibiana envergonhado. Essa resposta pode ser fundamentada pelos seguintes trechos: "Na manhã seguinte, Sutério apareceu em nossa casa para dizer que meu pai precisava terminar o pequeno barramento que fazia no riacho. Que precisava organizar os trabalhadores para capinar e fazer a coivara, deixar a terra limpa, sempre, para quando a chuva chegasse. Entrou em nossa cozinha e perguntou onde havíamos colhido as batatas-doces. Meu pai respondeu que havíamos comprado na feira da cidade. Com que dinheiro, ele quis saber. Vendemos o resto de azeite de dendê que tínhamos fabricado, disse. Sutério pegou a maior parte da batata-doce com as duas mãos grandes que tinha e levou para a Rural que havia deixado em nossa porta. Pilhou também duas garrafas de dendê que guardávamos para fazer os peixes miúdos que pescávamos no rio. Lembrou a meu pai da terça parte que tinha que dar da produção do quintal. Mas as batatas não eram produção do quintal. Da terra seca não brotava nem pasto, muito menos batata. E a secura era tanta que nem as várzeas estavam sendo cultivadas. No leito do rio, onde não havia água, era possível encontrar uma lama que apodrecia as sementes, de onde também não brotava nada, apenas taboa para fazer esteira, sacola e teto de casa. Vi a vergonha de meu pai crescer diante de nós, sem poder fazer nada."  (JUNIOR, 2019, p. 63) e "Quando deixei a casa pela porta do quintal, no sereno da noite, não pude evitar de olhar para trás por algumas vezes, enquanto seguia pela estrada ao encontro de Severo. Enumerava as coisas que levava comigo e tudo que deixava para trás. Quase desisti nesse exato momento, deixaria Severo partir sozinho, mas a imagem de Sutério levando nosso pouco suprimento, e a fome e o improviso que se seguiram para fazermos a refeição mais tarde, me deram a firmeza necessária para prosseguir." (JUNIOR, 2019, p. 65)</p></button>
+                    </div>
+
+                    <div class="questoes" id="questao8">
+                        <p class="p_questoes">8. Qual é o conflito central em "Torto Arado" e como ele impacta as vidas das protagonistas, Belonísia e Bibiana? </p>
+
+                        <p class="p_questoes">A. O conflito central é a disputa por terras e recursos na região, o que leva Belonísia e Bibiana a lutar por justiça e igualdade para a sua comunidade.</p>
+                            
+                        <p class="p_questoes">B. O conflito central envolve um segredo de família que as protagonistas precisam desvendar para proteger o legado de seus ancestrais.</p>
+                            
+                        <p class="p_questoes">C. O conflito central é a busca das protagonistas por independência financeira, levando-as a desafiar as normas tradicionais da sociedade rural.</p>
+
+                        <p class="p_questoes">D. O conflito central é a chegada de uma epidemia que ameaça a vida de todos na região, forçando Belonísia e Bibiana a tomar medidas drásticas para sobreviver.</p>
+
+                        <p class="p_questoes">E. O conflito central é a mudança política que redefine as estruturas de poder na região, levando as protagonistas a enfrentar novos desafios em sua luta por igualdade.</p>
+
+                        <button class="botoes, botoes_questoes" id="btn_resp_8">Resposta:   <p class="p_respostas" id="reposta8">Letra A. O livro "Torto Arado" de Itamar Vieira Junior aborda principalmente a questão da desigualdade social e da luta por terras e recursos na região rural do Brasil. As protagonistas Bibiana e Belonísia são profundamente afetadas por essa luta, que é o elemento central do drama e motiva suas ações ao longo da história. A busca por justiça e igualdade na sua comunidade é a central do enredo do livro.</p></button>
+                    </div>
+
+                    <div class="questoes" id="questao9">
+                        <p class="p_questoes">9. Com base no seguinte trecho do livro “A vida não é útil”, escrito por Ailton Krenak: <br><br> “Pois, repetindo as palavras de um ancestral, ele dizia: ‘Quando o último peixe estiver nas águas e a última árvore for removida da terra, só então o homem perceberá que ele não é capaz de comer seu dinheiro’.” (KRENAK, 2020, p. 13)<br><br>Assinale a alternativa que melhor descreve a relação entre o trecho e as preocupações ambientais contemporâneas:<br></p>
+
+                        <p class="p_questoes">A. O trecho critica a mentalidade consumista moderna, argumentando que as pessoas priorizam os bens materiais e preservam o meio ambiente.</p>
+                            
+                        <p class="p_questoes">B. O trecho destaca a importância de investir em tecnologias renováveis e tecnologias sustentáveis para promover o esgotamento dos recursos naturais.</p>
+                            
+                        <p class="p_questoes">C. O trecho ressalta a importância da preservação dos recursos naturais, afirmando que o dinheiro não pode suprir as necessidades humanas básicas.</p>
+
+                        <p class="p_questoes">D. O trecho sugere que a preocupação ambiental é irrelevante, uma vez que o dinheiro é considerado mais importante para a sobrevivência da humanidade.</p>
+
+                        <p class="p_questoes">E. O trecho enfatiza a importância de investir em tecnologias renováveis e tecnologias sustentáveis para evitar o esgotamento dos recursos naturais, sugerindo que o dinheiro é a solução para os problemas ambientais contemporâneos.</p>
+
+                        <button class="botoes, botoes_questoes" id="btn_resp_9">Resposta:   <p class="p_respostas" id="reposta9">Letra C. O trecho citado afirma que, quando o último peixe estiver nas águas e a última árvore for removida da terra, o ser humano perceberá que não pode comer dinheiro. Isso significa que os recursos naturais são fundamentais para a sobrevivência humana e que o dinheiro não pode substituí-los - a demasiada importância ao dinheiro e a exploração ambiental despreocupada implicam graves consequências para a humanidade. Logo, ele se relaciona com as preocupações ambientais contemporâneas, que apontam para a importância da conservação dos recursos naturais, da biodiversidade e redução do impacto ambiental.</p></button>
+                    </div>
+
+                    <div class="questoes" id="questao10">
+                        <p class="p_questoes">10. Considere o seguinte trecho do livro “A vida não é útil”, escrito por Ailton Krenak:<br><br>“A nossa mãe, a Terra, nos dá de graça o oxigênio, nos põe para dormir, nos desperta de manhã com o sol, deixa os pássaros cantar, as correntezas e as brisas se mover, cria esse mundo maravilhoso para compartilhar, e o que a gente faz com ele? O que estamos vivendo pode ser a obra de uma mãe amorosa que decidiu fazer o filho calar a boca pelo menos um instante. Não porque não goste dele, mas por querer lhe ensinar alguma coisa. ‘Filho, silêncio.’ A Terra está falando isso para a humanidade” (KRENAK, 2020, p. 84)<br><br>Qual é a principal mensagem que esse trecho transmite sobre a relação entre a humanidade, o planeta Terra e seus recursos naturais?<br><br></p>
+
+                        <p class="p_questoes">A. O trecho destaca a importância de reconhecer a Terra como uma mãe amorosa e explorar os seus recursos naturais, aproveitando tudo que ela oferece. </p>
+                            
+                        <p class="p_questoes">B. O trecho enfatiza a necessidade de a humanidade reconhecer a terra como uma mãe amorosa que fornece recursos e ensinamentos, e que não estamos agindo com gratidão e responsabilidade ambiental.</p>
+                            
+                        <p class="p_questoes">C. O trecho afirma que a Terra está irritada com a humanidade e pretende castigá-la restringindo o acesso aos seus recursos naturais. </p>
+
+                        <p class="p_questoes">D. O trecho indica que a Terra está fazendo a humanidade ficar em silêncio para que possa castigá-la e obrigá-la a sofrer consequências negativas.</p>
+
+                        <p class="p_questoes">E. O trecho sugere que estamos vivendo a obra de uma mãe amorosa e que não devemos ter responsabilidade ambiental.</p>
+
+                        <button class="botoes, botoes_questoes" id="btn_resp_10">Resposta:   <p class="p_respostas" id="reposta10">Letra B. No trecho, a terra é personificada como uma mãe amorosa que fornece recursos e ensinamentos à humanidade. Podemos ver isso em “A nossa mãe, a Terra, nos dá de graça o oxigênio, nos põe para dormir, nos desperta de manhã com o sol, deixa os pássaros cantar, as correntezas e as brisas se mover, cria esse mundo maravilhoso para compartilhar[..]” e “Não porque não goste dele, mas por querer lhe ensinar alguma coisa.” (KRENAK, 2020, p.84). Assim, é importante que os seres humanos a reconheçam e compreendam que precisam agir com gratidão e responsabilidade em relação aos recursos naturais.</p></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <h2>Referências</h2>
+
+            <div id="referencias">
+                <div id="txt_referencias">
+                    <div class="fontes">
+                        <p>ASCOM. Vestibular 2024: confira a análise do livro “Torto Arado” no X da Questão. Disponível em: <http://www.uesb.br/noticias/vestibular-2024-confira-a-analise-do-livro-torto-arado-no-x-da-questao/>. Acesso em: 28 nov. 2023.</p>
+                        <p>BANAGGIA, Gabriel. Conexões afroindígenas no jarê da Chapada Diamantina. Revista de Antropologia da UFSCAR, v. 9, n. 2, p. 123-133, 2017.</p>
+                        <p>Cantos e encantos do jarê são imortalizados em acervo digital. O Tempo, 2021. Disponível em: https://www.otempo.com.br/interessa/cantos-e-encantos-do-jare-sao-imortalizados-em-acervo-digital-1.2486532. Acesso em: 23/11/2023.</p>
+                        <p>DE PAULA DOMINGOS, G.TOLENTINO , L. Itamar Vieira Júnior - Literatura Afro-Brasileira. Disponível em: <http://www.letras.ufmg.br/literafro/autores/1270-itamar-vieira-junior>. Acesso em: 27 nov. 2023.</p>
+                        <p>DIAZ, L. Análise: redação nota máxima na Fuvest 2023 citou Ailton Krenak. Disponível em: <https://guiadoestudante.abril.com.br/redacao/analise-redacao-nota-maxima-na-fuvest-2023-citou-ailton-krenak/>. Acesso em: 25 nov. 2023.</p>
+                        <p>Em busca da tradição do jarê. FAPERJ, 2014. Disponível em: https://siteantigo.faperj.br/?id=2620.2.2. Acesso em: 23/11/2023.</p>
+                        <p>ILHÉU , T. Literatura Brasileira: 5 livros contemporâneos que caem no vestibular. Disponível em: <https://guiadoestudante.abril.com.br/dica-cultural/literatura-brasileira-5-livros-contemporaneos-que-caem-no-vestibular/>. Acesso em: 29 nov. 2023.</p>
+                        <p>Lista de Obras 2024 a 2026. Disponível em: <https://www.comvest.unicamp.br/lista-de-obras-2024-a-2026/>. Acesso em: 26 nov. 2023.</p>
+                    </div>
+
+                    <div class="fontes">
+                        <p>Livros para os Vestibulares - obras literárias 2023 e 2024 - Brasil Escola. Disponível em: <https://vestibular.brasilescola.uol.com.br/livros-vestibulares>. Acesso em: 25 nov. 2023.</p>
+                        <p>Martins, Romulo de Oliveira. "" Vinha na fé de trabalhar em diamantes." Escravos e libertos em Lençois, Chapada Diamantina-Ba (1840-1888)." (2015).</p>
+                        <p>SOCIAL, A. DE C. UENP divulga nova lista de livros para o Vestibular 2022 - Universidade Estadual do Norte do Paraná | UENP. Disponível em: <https://uenp.edu.br/noticias/item/3342-uenp-divulga-nova-lista-de-livros-para-o-vestibular-2022>. Acesso em: 26 nov. 2023.</p>
+                        <p>Um freio à mineração no Brasil de Torto Arado. Outras Mídias, 2022. Disponível em: https://outraspalavras.net/outrasmidias/um-freio-a-mineracao-no-brasil-de-torto-arado/. Acesso em: 23/11/2023.</p>
+                        <p>VILA NOVA, D. Entrevista com Itamar Vieira Junior sobre “Torto Arado”. Disponível em: <https://gamarevista.uol.com.br/formato/conversas/a-desigualdade-seja-do-passado-ou-do-presente-passa-pela-terra/>. Acesso em: 25 nov. 2023.</p>
+                        <p>4 curiosidades do livro Torto Arado, de Itamar Vieira Junior. Blog Vida de Escritor, 2021. Disponível em: https://www.blogvidadeescritor.com.br/post/tortoarado-itamarvieirajunior. Acesso em: 23/11/2023.</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <p id="final">Clube de leitura - 4º bimestre | Todos os direitos reservados | Guarulhos, 2023 </p>
+
+            </div>
+        </footer>
+
+        <script src="js/modificacoes.js"></script>
+    
+</body>
+</html>
